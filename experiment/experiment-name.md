@@ -1,1 +1,1 @@
-## Genetic transformation techniques- Gene gun mediated, Agrobacterium mediated transformation - Over expression, antisense expression (in model as well as crop plants)
+## Genetic transformation techniques

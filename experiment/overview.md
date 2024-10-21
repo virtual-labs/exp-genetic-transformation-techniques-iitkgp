@@ -5,12 +5,10 @@ Genetic transformation in plants means changing the plant's DNA with either an i
 1.	**Choosing the Trait:** Scientists decide what new trait they want the plant to have, like resistance to pests or better transportation or resistance to abiotic stress.
 2.	**Finding the Gene:** They identify a gene that encodes the trait. This gene can be from either the same plant or another plant, an animal, or even bacteria.
 3.	**Inserting the Gene:** Through an experimental process, the gene is introduced into the plant for integration in the DNA. There are a few common ways to do this:
-
      - **Using Bacteria:** A special bacteria called Agrobacterium can naturally insert genes into plants. Scientists put the new gene into the bacteria, and then let the bacteria transfer into the plant.
      - **Particle Bombardment:** Scientists coat tiny particles with the specific gene and shoot them into plant cells. This specific gene then becomes part of the plant's DNA.
-
-4.	Growing the Plant: The plant cells with the inserted gene are grown into whole plants. These plants now have the new trait.
-5.	Testing: Scientists check the new plants to make sure they have the trait and that it works as expected.
+4.	**Growing the Plant:** The plant cells with the inserted gene are grown into whole plants. These plants now have the new trait.
+5.	**Testing:** Scientists check the new plants to make sure they have the trait and that it works as expected.
 
 
 This process allows plants to have new and useful characteristics that they didn't have before.
