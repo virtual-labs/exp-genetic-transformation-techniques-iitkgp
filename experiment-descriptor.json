@@ -1,0 +1,104 @@
+{
+  "unit-type": "lu",
+  "label": "",
+  "basedir": ".",
+  "units": [
+    {
+      "unit-type": "aim"
+    },
+    {
+      "unit-type": "task",
+      "label": "Overview",
+      "content-type": "text",
+      "source": "overview.md",
+      "target": "overview.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "Pretest",
+      "content-type": "assesment",
+      "source": "pretest.json",
+      "target": "pretest.html"
+    },
+    
+    {
+      "unit-type": "lu",
+      "label": "Agrobacterium mediated transformation",
+      "basedir": "amtransform",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/index.html",
+          "target": "index.html"
+        }
+
+      ]
+    },
+    {
+      "unit-type": "lu",
+      "label": "Particle bombardment method",
+      "basedir": "pbmethod",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/index.html",
+          "target": "index.html"
+        }
+
+      ]
+    },
+    
+    {
+      "unit-type": "task",
+      "label": "Posttest",
+      "content-type": "assesment",
+      "source": "posttest.json",
+      "target": "posttest.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "References",
+      "content-type": "text",
+      "source": "references.md",
+      "target": "references.html"
+    }
+  ]
+}
