@@ -64,17 +64,17 @@ Several methods are used to create genetically modified plants, including Agroba
 
 The process of using Agrobacterium to insert genes into plants like wheat and corn has greatly improved. This progress is due to a better understanding of how Agrobacterium transfers its DNA and interacts with plant cells. A simplified process is given below:
 
-1.	**Basic Setup:**
-       - Agrobacterium uses a plasmid to transfer genes to plants. Scientists now use a simplified version with just the essential components for gene transfer.
-       - Two plasmids are involved: a modified Ti plasmid that aids the transfer, and a binary vector containing the T-DNA with the desired genes.
-2.	**Plasmid Preparation:**
-       - The binary vector carries the T-DNA region without the genes for hormones and opines, and the modified Ti plasmid has the machinery needed to process and transfer the T-DNA.
-3.	**Infection Process:**
-       - When placed on wounded plant tissue, Agrobacterium is activated by the plant’s release of acetosyringone, triggering virulence genes (vir genes). To overcome difficulties     with plants like wheat and corn, synthetic acetosyringone is added.
-4.	**DNA Transfer:**
-       - Once the vir genes are active, the T-DNA is prepared and transferred into the plant cell via a pilus, a tube that connects the bacterium to the plant cell.
-5.	**Integration into Plant DNA:**
-      -  The T-DNA moves into the plant cell's nucleus, integrating into the plant’s genome, typically in active regions of the DNA.
+1. **Basic Setup:**
+   - Agrobacterium uses a plasmid to transfer genes to plants. Scientists now use a simplified version with just the essential components for gene transfer.
+   - Two plasmids are involved: a modified Ti plasmid that aids the transfer, and a binary vector containing the T-DNA with the desired genes.
+2. **Plasmid Preparation:**
+   - The binary vector carries the T-DNA region without the genes for hormones and opines, and the modified Ti plasmid has the machinery needed to process and transfer the T-DNA.
+3. **Infection Process:**
+   - When placed on wounded plant tissue, Agrobacterium is activated by the plant’s release of acetosyringone, triggering virulence genes (vir genes). To overcome difficulties     with plants like wheat and corn, synthetic acetosyringone is added.
+4. **DNA Transfer:**
+   - Once the vir genes are active, the T-DNA is prepared and transferred into the plant cell via a pilus, a tube that connects the bacterium to the plant cell.
+5. **Integration into Plant DNA:**
+   -  The T-DNA moves into the plant cell's nucleus, integrating into the plant’s genome, typically in active regions of the DNA.
 
 
 #### Optimizing Gene Delivery: Scientists are improving Agrobacterium's efficiency by focusing on:
