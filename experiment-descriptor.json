@@ -99,13 +99,6 @@
       "content-type": "text",
       "source": "references.md",
       "target": "references.html"
-    },
-    {
-      "unit-type": "task",
-      "label": "Contributors",
-      "content-type": "text",
-      "source": "contributors.md",
-      "target": "contributors.html"
     }
   ]
 }
