@@ -48,7 +48,7 @@
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexamt.html",
-          "target": "index.html"
+          "target": "indexamt.html"
         }
 
       ]
@@ -80,7 +80,7 @@
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexpbm.html",
-          "target": "index.html"
+          "target": "indexpbm.html"
         }
 
       ]
@@ -99,13 +99,6 @@
       "content-type": "text",
       "source": "references.md",
       "target": "references.html"
-    },
-    {
-      "unit-type": "task",
-      "label": "Contributors",
-      "content-type": "text",
-      "source": "contributors.md",
-      "target": "contributors.html"
     }
   ]
 }
