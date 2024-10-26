@@ -28,7 +28,7 @@ Both systems rely on pressurized helium to drive microcarrier particles.
 - Useful for studying cell signaling by introducing fluorescent dyes into cells and tissues.
 
 <div align="center">
-<img src="images/4.jpg" width="50%">
+<img src="images/4.jpg" width="70%">
 <p>Figure 2. Schematic representation of particle bombardment: Plant transformation via particle bombardment (1) mother plant (2) leaf (3) isolated leaf cells (4a) removed cell walls (4b) protoplasts (5) gene transfer using particle bombardment device (6) callus induction (7) regeneration (8) rooting (9) a young plantlet (10) molecular and histo-chemical analyses </p>
 </div>
 
