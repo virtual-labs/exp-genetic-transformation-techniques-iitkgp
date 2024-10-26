@@ -4,7 +4,7 @@ There are both direct and indirect methods for altering plant genes. Direct gene
 Microprojectile bombardment is a physical method of gene transfer where high-velocity particles deliver foreign genetic material directly into cells or tissues. This method is also known as Particle Bombardment, Gene Gun, Ballistics, or Particle Acceleration. It was pioneered by John Sanford and Ed Wolf, initially for plant cells, and later adapted for human cells.
 
 <div align="center">
-<img src="images/3.jpg" width="50%">
+<img src="images/3.jpg" class="img-fluid">
 <p>Figure 1. Microprojectile Bombardment</p>
 </div>
 
