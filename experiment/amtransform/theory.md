@@ -7,7 +7,7 @@ Agrobacterium transfers a specific piece of DNA, called T-DNA, from its own geno
 Agrobacterium is easy to grow and can be applied directly to plant tissues, making the process more convenient. Unlike direct DNA delivery methods, where DNA is forced into the plant cell's nucleus, the T-DNA from Agrobacterium naturally includes signals that help it reach the nucleus on its own.
 
 <div align="center">
-<img src="images/iitkgp.png" width="50%">
+<img src="images/1.jpg" width="50%">
 <p>Figure 1. Schematic of Agrobacterium-mediated transformation of a plant cell, showing production of the T strand from the binary vector, transport through the bacterial pillus, and integration into plant chromosomal DNA. </p>
 </div>
 
@@ -90,6 +90,6 @@ The process of using Agrobacterium to insert genes into plants like wheat and co
 In summary, improvements in Agrobacterium-mediated gene transfer have streamlined the process for many plants, though challenges remain for certain crops like corn and soybeans.
 
 <div align="center">
-<img src="images/iitkgp.png" width="50%">
+<img src="images/2.jpg" width="50%">
 <p>Figure 2. Agrobacterium-Mediated Gene Transfer (Transformation) in Plants </p>
 </div>
