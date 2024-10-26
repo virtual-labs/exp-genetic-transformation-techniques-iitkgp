@@ -90,6 +90,6 @@ The process of using Agrobacterium to insert genes into plants like wheat and co
 In summary, improvements in Agrobacterium-mediated gene transfer have streamlined the process for many plants, though challenges remain for certain crops like corn and soybeans.
 
 <div align="center">
-<img src="images/2.jpg" width="50%">
+<img src="images/2.jpg" class="img-fluid">
 <p>Figure 2. Agrobacterium-Mediated Gene Transfer (Transformation) in Plants </p>
 </div>
