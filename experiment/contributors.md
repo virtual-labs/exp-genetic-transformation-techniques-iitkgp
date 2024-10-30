@@ -7,6 +7,7 @@
 <b> Department |  Rajiv Gandhi School of IP Law
 
 
+
 ### Developer and Integation Engineer
 | SNo. | Name | Designation | Department| Institute| 
 | :---: | :---: | :---: | :---: | :---: |
@@ -15,4 +16,4 @@
 ### Contributors List
 Sr No | Name |  Designation | Department| Institute| 
 :--|:--|:--|:--|:--|
-1 | **Tapas M Das ** |  | Science Botany | IIT Kharagpur |
+1 | **Tapas M Das** | Research Scholar | Rajiv Gandhi School of IP Law | IIT Kharagpur |
