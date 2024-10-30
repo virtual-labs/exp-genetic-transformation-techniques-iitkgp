@@ -1,5 +1,5 @@
 
-### Subject Matter Expert
+## Subject Matter Expert
 <b>Name  | <b> Prof. Padmavati Manchikanti
 :--|:--|
 <b> Institute | <b>  IIT Kharagpur
@@ -8,12 +8,12 @@
 
 
 
-### Developer and Integation Engineer
+## Developer and Integation Engineer
 | SNo. | Name | Designation | Department| Institute| 
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | Prakriti Dhang | Project Scientist | Department of Mechanical Engineering | IIT Kharagpur |
 
-### Contributors List
+## Contributors List
 Sr No | Name |  Designation | Department| Institute| 
 :--|:--|:--|:--|:--|
 1 | **Tapas M Das** | Research Scholar | Rajiv Gandhi School of IP Law | IIT Kharagpur |
