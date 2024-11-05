@@ -28,4 +28,4 @@ To understand how genetic transformation techniques could be utilised to enhance
 ### Contributors List
 Sr No | Name |  Designation | Department| Institute| 
 :--|:--|:--|:--|:--|
-1 | **Tapas M Das** |  | Science Botany | IIT Kharagpur |
+1 | **Tapas M Das** | Research Scholar | Rajiv Gandhi School of IP Law | IIT Kharagpur |
