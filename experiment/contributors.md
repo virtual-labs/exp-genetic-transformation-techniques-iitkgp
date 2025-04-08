@@ -9,9 +9,9 @@
 
 
 ## Developer and Integation Engineer
-| SNo. | Name | Designation | Department| Institute| 
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | Prakriti Dhang | Project Scientist | Department of Mechanical Engineering | IIT Kharagpur |
+| SNo. | Name | Designation | Institute| 
+| :---: | :---: | :---: | :---: | 
+| 1 | Prakriti Dhang | Project Scientist | | IIT Kharagpur |
 
 ## Contributors List
 Sr No | Name |  Designation | Department| Institute| 
