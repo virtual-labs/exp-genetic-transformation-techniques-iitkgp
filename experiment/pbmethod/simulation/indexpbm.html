@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		.carousel-caption-top {
+		  top: 10px;
+		  bottom: auto;
+		  color: black;
+		}
+	  </style>
+</head>
+
+<body style="background-color: rgb(223, 221, 219);">
+
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+		<!-- Indicators -->
+		<!--div class="carousel-indicators">
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+		</div-->
+
+		<!-- Carousel Inner -->
+		<div class="carousel-inner text-center">
+			<div class="carousel-item active">
+				<img src="./images/Step 1 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="First Slide">
+				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
+					<h3>Step 1</h3> 
+			</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./images/Step 2 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto"
+					alt="Second Slide">
+					<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
+						<h3>Step 2</h3> 
+				</div>
+				</div>
+			<div class="carousel-item">
+				<img src="./images/Step 3 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Third Slide">
+				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
+					<h3>Step 3</h3> 
+			</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./images/Step 4 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Fourth Slide">
+				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
+					<h3>Step 4</h3> 
+			</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./images/Step 5 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Fifth Slide">
+				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
+					<h3>Step 5</h3> 
+			</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./images/Step 6 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Sixth Slide">
+				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
+					<h3>Step 6</h3> 
+			</div>
+			</div>
+		</div>
+
+		<!-- Controls -->
+		<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+			<span class="visually-hidden"></span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+			<span class="visually-hidden"></span>
+		</button>
+	</div>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
