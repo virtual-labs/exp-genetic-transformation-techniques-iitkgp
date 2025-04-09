@@ -17,7 +17,11 @@
 </head>
 
 <body style="background-color: rgb(223, 221, 219);">
-
+<div class="container text-center my-4">
+  <h3 id="carousel-heading">Step 1.	Preparation of Microcarrier Particles: </h3>
+  <h4 id="carousel-paragraph">Microcarrier particles, typically made of gold or tungsten, are prepared to carry the desired genetic material.</h4>
+</div>
+</div>
 	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 		<!-- Indicators -->
 		<!--div class="carousel-indicators">
@@ -28,42 +32,34 @@
 
 		<!-- Carousel Inner -->
 		<div class="carousel-inner text-center">
-			<div class="carousel-item active">
+			<div class="carousel-item active" data-caption-title="Step 1. Preparation of Microcarrier Particles" data-caption-text=" Microcarrier particles, typically made of gold or tungsten, are prepared to carry the desired genetic material.">
 				<img src="./images/Step 1 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="First Slide">
-				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
-					<h3>Step 1</h3> 
+				
 			</div>
-			</div>
-			<div class="carousel-item">
+			<div class="carousel-item" data-caption-title="Step 2. Coating Microcarrier with Genetic Material" data-caption-text="The genetic material is coated onto the surface of the microcarrier particles to ensure it adheres during delivery.">
 				<img src="./images/Step 2 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto"
 					alt="Second Slide">
-					<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
-						<h3>Step 2</h3> 
+					
 				</div>
-				</div>
-			<div class="carousel-item">
+			<div class="carousel-item" data-caption-title="Step 3. Loading into Gene Gun" data-caption-text="The coated particles are then loaded into the gene gun, which utilizes pressurized helium to launch the particles.">
 				<img src="./images/Step 3 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Third Slide">
-				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
-					<h3>Step 3</h3> 
+				
 			</div>
-			</div>
-			<div class="carousel-item">
+			<div class="carousel-item" data-caption-title="Step 4. Pressure Activation" data-caption-text="A breach disk inside the gene gun breaks upon pressure build-up, releasing gas to propel the macrocarrier holding the microcarriers toward the target.">
 				<img src="./images/Step 4 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Fourth Slide">
-				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
-					<h3>Step 4</h3> 
+				
 			</div>
-			</div>
-			<div class="carousel-item">
+			<div class="carousel-item" data-caption-title="Step 5. Macrocarrier Stopping" data-caption-text="A stopping screen halts the macrocarrier, allowing only the microcarrier particles to pass through toward the target cells.">
 				<img src="./images/Step 5 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Fifth Slide">
-				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
-					<h3>Step 5</h3> 
+				
 			</div>
-			</div>
-			<div class="carousel-item">
+			<div class="carousel-item" data-caption-title="Step 6. Target Cell Placement" data-caption-text="The target cells are placed on a Petri dish or growth plate within the gene gun chamber for exposure to the microcarriers.">
 				<img src="./images/Step 6 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Sixth Slide">
-				<div class="carousel-caption carousel-caption-top position-absolute w-100 text-center">
-					<h3>Step 6</h3> 
+				
 			</div>
+			<div class="carousel-item" data-caption-title="Step 7. Genetic Material Delivery" data-caption-text="The high-speed microcarrier particles penetrate the cell wall and membrane, entering the cytoplasm, where the genetic material is released, allowing for gene expression to begin within the plant cell.">
+				<img src="./images/Step_7__Particle_Bombardment.png" class="d-block mx-auto" alt="Seventh Slide">
+				
 			</div>
 		</div>
 
@@ -80,6 +76,20 @@
 
 	<!-- Bootstrap JS -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+		const carousel = document.querySelector('#myCarousel');
+  const heading = document.querySelector('#carousel-heading');
+  const paragraph = document.querySelector('#carousel-paragraph');
+
+  carousel.addEventListener('slide.bs.carousel', function (e) {
+    const nextSlide = e.relatedTarget;
+    const title = nextSlide.getAttribute('data-caption-title');
+    const text = nextSlide.getAttribute('data-caption-text');
+    heading.textContent = title;
+    paragraph.textContent = text;
+  });
+		
+	  </script>
 </body>
 
 </html>
