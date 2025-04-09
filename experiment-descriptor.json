@@ -47,7 +47,7 @@
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
-          "source": "simulation/indexamt.html",
+          "source": "simulation/index.html",
           "target": "indexamt.html"
         }
 

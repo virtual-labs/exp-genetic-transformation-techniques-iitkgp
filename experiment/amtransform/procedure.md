@@ -86,3 +86,8 @@ This medium supports root growth in the shoots.
 - Transfer them into pots with moist compost and cover with plastic bags to keep humidity high.
 - Keep the pots in a growth chamber with light at 25°C for 1–2 weeks.
 - When the plants are strong and healthy, remove the plastic bags and start watering normally.
+
+
+<div align="center">
+<img src="./images/Agrobacterium-Mediated-Gene-Transfer-Photoroom.png" width="60%">
+</div>
