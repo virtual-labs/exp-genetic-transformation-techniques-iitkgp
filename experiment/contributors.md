@@ -11,9 +11,9 @@
 ## Developer and Integation Engineer
 | SNo. | Name | Designation | Institute| 
 | :---: | :---: | :---: | :---: | 
-| 1 | Prakriti Dhang | Project Scientist | | IIT Kharagpur |
+| 1 | Prakriti Dhang | Project Scientist |  IIT Kharagpur |
 
 ## Contributors List
 Sr No | Name |  Designation | Department| Institute| 
 :--|:--|:--|:--|:--|
-1 | **Tapas M Das** | Research Scholar | Rajiv Gandhi School of IP Law | IIT Kharagpur |
+1 | **Tapas Mani Das** | Research Scholar | Rajiv Gandhi School of IP Law | IIT Kharagpur |
