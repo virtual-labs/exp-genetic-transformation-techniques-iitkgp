@@ -89,5 +89,5 @@ This medium supports root growth in the shoots.
 
 
 <div align="center">
-<img src="./images/Agrobacterium-Mediated-Gene-Transfer-Photoroom.png" width="80%">
+<img src="./images/Agrobacterium-Mediated-Gene-Transfer-Photoroom.png" width="100%">
 </div>
