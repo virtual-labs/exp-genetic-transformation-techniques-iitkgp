@@ -47,8 +47,8 @@
           "unit-type": "task",
           "label": " Slides",
           "content-type": "simulation",
-          "source": "simulation/index.html",
-          "target": "indexamt.html"
+          "source": "simulation/indexsamt.html",
+          "target": "indexsamt.html"
         },
          {
           "unit-type": "task",
@@ -86,15 +86,15 @@
           "unit-type": "task",
           "label": " Slides",
           "content-type": "simulation",
-          "source": "simulation/indexpbm.html",
-          "target": "indexpbm.html"
+          "source": "simulation/indexspbm.html",
+          "target": "indexspbm.html"
         },
         {
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
-          "source": "simulation/index.html",
-          "target": "index.html"
+          "source": "simulation/indexpbm.html",
+          "target": "indexpbm.html"
         }
 
       ]
