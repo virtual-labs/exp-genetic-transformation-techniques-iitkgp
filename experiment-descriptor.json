@@ -48,7 +48,7 @@
           "label": " Slides",
           "content-type": "simulation",
           "source": "simulation/index.html",
-          "target": "index.html"
+          "target": "indexamt.html"
         },
          {
           "unit-type": "task",
@@ -84,10 +84,17 @@
         },
         {
           "unit-type": "task",
-          "label": " Simulation",
+          "label": " Slides",
           "content-type": "simulation",
           "source": "simulation/indexpbm.html",
           "target": "indexpbm.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/index.html",
+          "target": "index.html"
         }
 
       ]
