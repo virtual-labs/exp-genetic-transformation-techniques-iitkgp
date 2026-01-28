@@ -1,95 +1,431 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-	<style>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<!--style>
 		.carousel-caption-top {
 		  top: 10px;
 		  bottom: auto;
 		  color: black;
 		}
-	  </style>
+		  
+
+		
+	  </style-->
 </head>
 
-<body style="background-color: rgb(223, 221, 219);">
-<div class="container text-center my-4">
-  <h3 id="carousel-heading">Step 1.	Preparation of Microcarrier Particles: </h3>
-  <h4 id="carousel-paragraph">Microcarrier particles, typically made of gold or tungsten, are prepared to carry the desired genetic material.</h4>
-</div>
-</div>
-	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-		<!-- Indicators -->
-		<!--div class="carousel-indicators">
-			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
-			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
-			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
-		</div-->
+<body>
 
-		<!-- Carousel Inner -->
-		<div class="carousel-inner text-center">
-			<div class="carousel-item active" data-caption-title="Step 1. Preparation of Microcarrier Particles" data-caption-text=" Microcarrier particles, typically made of gold or tungsten, are prepared to carry the desired genetic material.">
-				<img src="./images/Step 1 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="First Slide">
-				
-			</div>
-			<div class="carousel-item" data-caption-title="Step 2. Coating Microcarrier with Genetic Material" data-caption-text="The genetic material is coated onto the surface of the microcarrier particles to ensure it adheres during delivery.">
-				<img src="./images/Step 2 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto"
-					alt="Second Slide">
-					
+	<div class="container-fluid p-2 mt-2 ">
+
+		<!-- <div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Instructions
+						<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+							onclick="restartexp()">
+							Re-Do the Experiment</button>
+					</div>
+
+					<div class="card-body">
+						<ol id="inst1">
+
+					</div>
 				</div>
-			<div class="carousel-item" data-caption-title="Step 3. Loading into Gene Gun" data-caption-text="The coated particles are then loaded into the gene gun, which utilizes pressurized helium to launch the particles.">
-				<img src="./images/Step 3 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Third Slide">
-				
 			</div>
-			<div class="carousel-item" data-caption-title="Step 4. Pressure Activation" data-caption-text="A breach disk inside the gene gun breaks upon pressure build-up, releasing gas to propel the macrocarrier holding the microcarriers toward the target.">
-				<img src="./images/Step 4 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Fourth Slide">
-				
+		</div> -->
+
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 1: Preparation of Microcarrier Particles</div>
+					<div class="card-body">
+						<div class="row ">
+							<div class="col-md-6">
+								<div class="card">
+
+									<div class="card-body">
+										<form>
+											<label for="step1a" class="form-label fw-bold">Select correct microcarrier material
+											</label>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="Silver"
+													id="check1" name="sstep1">
+												<label class="form-check-label" for="scheck1">Silver</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="Gold"
+													id="check2" name="sstep1">
+												<label class="form-check-label" for="scheck2">Gold</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="Copper"
+													id="check3" name="sstep1">
+												<label class="form-check-label" for="check3">Copper</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox"
+													value="Tungsten" id="check4" name="sstep1">
+												<label class="form-check-label" for="scheck4">Tungsten</label>
+											</div>
+											<button class="btn btn-primary " type="button" id="step1amix"
+												onclick="step1acheck()">Check</button>
+
+										</form>
+
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+
+									<div class="card-body">
+
+										<img src="./images/Step1.png" id="step1img" style="display: none;">
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
 			</div>
-			<div class="carousel-item" data-caption-title="Step 5. Macrocarrier Stopping" data-caption-text="A stopping screen halts the macrocarrier, allowing only the microcarrier particles to pass through toward the target cells.">
-				<img src="./images/Step 5 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Fifth Slide">
-				
+
+		</div>
+
+
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 2: DNA Coating on Microcarriers </div>
+
+					<div class="card-body">
+						<div class="row ">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										
+											<label for="step2" class="form-label fw-bold">Arrange the steps in correct order</label>
+<br>
+                                            <label class="form-check-label" for="aicheck1">(1) Mix DNA + CaCl<sub>2</sub></label><br>
+                                            <label class="form-check-label" for="aicheck1">(2) Add microcarrier particles</label><br>
+                                            <label class="form-check-label" for="aicheck1">(3) Incubate to allow DNA precipitation</label><br>
+                                            <label class="form-check-label" for="aicheck1">(4) Wash and resuspend particles</label><br>
+											
+												<div class="row align-items-center g-2">
+                                                    <label for="step2" class="form-label fw-bold">Enter number in the below textboxes</label>
+  <div class="col">
+    <input type="number" id="i1" class="form-control">
+  </div>
+  <div class="col-auto">
+    
+    <label for="i1" class="col-form-label">-></label>
+  </div>
+
+  <div class="col">
+    <input type="number" id="i2" class="form-control">
+  </div>
+  <div class="col-auto">
+    
+    <label for="i2" class="col-form-label">-></label>
+  </div>
+
+  <div class="col">
+       <input type="number" id="i3" class="form-control">
+  </div>
+  <div class="col-auto">
+ 
+    <label for="i3" class="col-form-label">-></label>
+  </div>
+
+  <div class="col">
+     <input type="number" id="i4" class="form-control">
+  </div>
+  <div class="col-auto">
+    
+   
+  </div>
+</div>
+											
+											<button class="btn btn-primary " type="button" id="step2mix"
+												onclick="step2check()">Check</button>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step2.png" id="step2img" style="display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
 			</div>
-			<div class="carousel-item" data-caption-title="Step 6. Target Cell Placement" data-caption-text="The target cells are placed on a Petri dish or growth plate within the gene gun chamber for exposure to the microcarriers.">
-				<img src="./images/Step 6 [Particle Bombardment]-Photoroom.png" class="d-block mx-auto" alt="Sixth Slide">
-				
-			</div>
-			<div class="carousel-item" data-caption-title="Step 7. Genetic Material Delivery" data-caption-text="The high-speed microcarrier particles penetrate the cell wall and membrane, entering the cytoplasm, where the genetic material is released, allowing for gene expression to begin within the plant cell.">
-				<img src="./images/Step_7__Particle_Bombardment.png" class="d-block mx-auto" alt="Seventh Slide">
-				
+
+		</div>
+
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 3: : Loading into the Gene Gun</div>
+
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+											<label for="step3a" class="form-label fw-bold">Identify correct component for loading </label>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="Handle" name="step3arb" id="ecaradio1">
+												<label class="form-check-label" for="ecacheck1">Handle </label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="Pressure gauge" name="step3arb" id="ecaradio2">
+												<label class="form-check-label" for="ecacheck2">Pressure gauge </label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="Macrocarrier holder" name="step3arb" id="ecaradio3">
+												<label class="form-check-label" for="ecacheck3">Macrocarrier holder </label>
+											</div>
+											<button class="btn btn-primary " type="button" id="step3amix"
+												onclick="step3acheck()">Check</button>
+										</form>
+
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step3.png" id="step3img" style="display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
 			</div>
 		</div>
 
-		<!-- Controls -->
-		<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon"></span>
-			<span class="visually-hidden"></span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-			<span class="carousel-control-next-icon"></span>
-			<span class="visually-hidden"></span>
-		</button>
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 4: Pressure Activation</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+
+											<select id="step4" class="form-select" onchange="step4check()">
+												<option selected>Choose correct helium pressure</option>
+												<option value="1">100 psi</option>
+												<option value="2">900 - 1100 psi</option>
+												<option value="3">2000 psi</option>
+											</select>
+											
+										</form>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step4.png" id="step4img" style="display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 5: Macrocarrier Stopping</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+
+											<select id="step5" class="form-select" onchange="step5check()">
+												<option selected>Why is the stopping screen needed?</option>
+												<option value="1">To cool the gas</option>
+												<option value="2">To sterilize the chamber </option>
+												<option value="3">To stop the macrocarrier before it hits tissue </option>
+											</select>
+											
+										</form>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step5.png" id="step5img" style="display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 6: Distance Between Tissue and Screen</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+
+											<div class="form-check">
+                                                <label class="form-check-label" for="textxtp6">Enter distance: </label>
+												<select id="step6" class="form-select" onchange="step6check()">
+												<option selected>Select the correct distance</option>
+												<option value="1"> 3 cm </option>
+												<option value="2">12 cm</option>
+												<option value="3">6-9 cm</option>
+											</select>
+												 
+											</div>
+											
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step6.png" id="step6img" style="display: none;">
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 7: Post-Bombardment Processing</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+
+											<select id="step7" class="form-select" onchange="step7check()">
+												<option selected>Select the correct Post-Bombardment Processing</option>
+												<option value="1">Wash thoroughly</option>
+												<option value="2">Incubate on selective medium</option>
+												<option value="3">Discard non-bombarded tissue</option>
+											</select>
+											
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step7.png" id="step7img" style="display: none;">
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>
+	<div class="modal fade" id="alertmessage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Alert Message</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p></p>
+
+				</div>
+				<div class="modal-footer">
+
+					<button type="button" class="btn btn-warning" onclick="" data-bs-dismiss="modal"
+						onclick="showstep1img()">OK</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<!-- Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-	<script>
-		const carousel = document.querySelector('#myCarousel');
-  const heading = document.querySelector('#carousel-heading');
-  const paragraph = document.querySelector('#carousel-paragraph');
 
-  carousel.addEventListener('slide.bs.carousel', function (e) {
-    const nextSlide = e.relatedTarget;
-    const title = nextSlide.getAttribute('data-caption-title');
-    const text = nextSlide.getAttribute('data-caption-text');
-    heading.textContent = title;
-    paragraph.textContent = text;
-  });
-		
-	  </script>
+	</div>
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<script src="./js/main.js"></script>
 </body>
 
 </html>
