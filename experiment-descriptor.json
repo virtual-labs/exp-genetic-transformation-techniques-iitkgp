@@ -45,9 +45,16 @@
         },
         {
           "unit-type": "task",
-          "label": " Simulation",
+          "label": " Slides",
           "content-type": "simulation",
           "source": "simulation/index.html",
+          "target": "index.html"
+        },
+         {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/indexamt.html",
           "target": "indexamt.html"
         }
 
