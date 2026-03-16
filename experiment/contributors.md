@@ -16,4 +16,4 @@
 ## Contributors List
 Sr No | Name |  Designation | Department| Institute| 
 :--|:--|:--|:--|:--|
-1 | **Tapas Mani Das** | Research Scholar | Rajiv Gandhi School of IP Law | IIT Kharagpur |
+1 | **Tapas Mani Das** | Student | Rajiv Gandhi School of IP Law | IIT Kharagpur |
