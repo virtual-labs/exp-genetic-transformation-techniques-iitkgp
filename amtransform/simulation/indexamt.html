@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<!--style>
+		.carousel-caption-top {
+		  top: 10px;
+		  bottom: auto;
+		  color: black;
+		}
+		  
+
+		
+	  </style-->
+</head>
+
+<body>
+
+	<div class="container-fluid p-2 mt-2 ">
+
+		<!-- <div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Instructions
+						<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+							onclick="restartexp()">
+							Re-Do the Experiment</button>
+					</div>
+
+					<div class="card-body">
+						<ol id="inst1">
+
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 1: Sterilization and Germination</div>
+					<div class="card-body">
+						<div class="row ">
+							<div class="col-md-6">
+								<div class="card">
+
+									<div class="card-body">
+										<form>
+											<label for="step1a" class="form-label fw-bold">Task 1A- Select the correct seed
+												sterilizing
+												agents
+											</label>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="Distilled Water"
+													id="check1" name="sstep1">
+												<label class="form-check-label" for="scheck1">Distilled Water</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="70% Ethanol"
+													id="check2" name="sstep1">
+												<label class="form-check-label" for="scheck2">70% Ethanol</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="Sucrose"
+													id="check3" name="sstep1">
+												<label class="form-check-label" for="check3">Sucrose</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox"
+													value="Sodium hypochlorite" id="check4" name="sstep1">
+												<label class="form-check-label" for="scheck4">Sodium
+													hypochlorite</label>
+											</div>
+											<button class="btn btn-primary " type="button" id="step1amix"
+												onclick="step1acheck()">Check Sterilization</button>
+
+										</form>
+
+										<form>
+											<label for="step1b" class="form-label fw-bold">Task 1B- Select the correct seed
+												germinating
+												temperature and duration
+											</label>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="28 deg for 2 days"
+													id="check1" name="gstep1">
+												<label class="form-check-label" for="gcheck1">28 deg for 2 days</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="12 deg for 2 days"
+													id="check2" name="gstep1">
+												<label class="form-check-label" for="gcheck2">12 deg for 2 days</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="50 deg for 2 days"
+													id="check3" name="gstep1">
+												<label class="form-check-label" for="gcheck3">50 deg for 2 days</label>
+											</div>
+
+											<button class="btn btn-primary " type="button" id="step1bmix"
+												onclick="step1bcheck()">Check Germination</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+
+									<div class="card-body">
+
+										<img src="./images/Step1.png" id="step1img" style="display: none;">
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 2: Preparation of Agrobacterium Inoculam </div>
+
+					<div class="card-body">
+						<div class="row ">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+											<label for="step2" class="form-label fw-bold">Identify what must be added to the
+												Agrobacterium culture to activate vir genes </label>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="Sodium chloride" name="astep2" id="check1">
+												<label class="form-check-label" for="aicheck1">Sodium chloride</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="Antibiotics" name="astep2" id="check2">
+												<label class="form-check-label" for="aicheck2">Antibiotics</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value="Acetosyringone" name="astep2" id="check3">
+												<label class="form-check-label" for="aicheck3">Acetosyringone</label>
+											</div>
+											<button class="btn btn-primary " type="button" id="step2mix"
+												onclick="step2check()">Check</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step2.png" id="step2img" style="display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 3: Preparation of Explant and Co-Cultivation</div>
+
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+											<label for="step3a" class="form-label fw-bold">Task 3A- Choose Correct
+												Co-Cultivation
+												Duration </label>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="2 hours" name="step3arb" id="ecaradio1">
+												<label class="form-check-label" for="ecacheck1">2 hours </label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="24 - 72 hours" name="step3arb" id="ecaradio2">
+												<label class="form-check-label" for="ecacheck2">24 - 72 hours </label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="1 week" name="step3arb" id="ecaradio3">
+												<label class="form-check-label" for="ecacheck3">1 week </label>
+											</div>
+											<button class="btn btn-primary " type="button" id="step3amix"
+												onclick="step3acheck()">Check</button>
+										</form>
+
+										<form>
+											<label for="step3b" class="form-label fw-bold">Task 3B- Identify Next Step After
+												Co-Cultivation </label>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="Transfer directly to soil" name="step3brb" id="ecbradio1">
+												<label class="form-check-label" for="ecbcheck1">Transfer directly to soil </label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="Add sucrose only" name="step3brb" id="ecbradio2">
+												<label class="form-check-label" for="ecbcheck2">Add sucrose only
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="radio" value="Wash explants gently" name="step3brb" id="ecbradio3">
+												<label class="form-check-label" for="ecbcheck3">Wash explants gently
+												</label>
+											</div>
+											<button class="btn btn-primary " type="button" id="step3bmix"
+												onclick="step3bcheck()">Check</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step3.png" id="step3img" style="display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 4: Shoot Initiation</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+
+											<select id="step4" class="form-select" onchange="step4check()">
+												<option selected>Select the correct hormone combination</option>
+												<option value="1">High auxin, low cytokinin</option>
+												<option value="2">High cytokinin, low auxin</option>
+												<option value="3">No hormones</option>
+											</select>
+											
+										</form>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step4.png" id="step4img" style="display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 5: Root Foramation (Regeneration)</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+
+											<select id="step5" class="form-select" onchange="step5check()">
+												<option selected>Choose the correct medium type</option>
+												<option value="1">Auxin-rich medium</option>
+												<option value="2">Cytokinin-rich medium</option>
+												<option value="3">Hormone-free</option>
+											</select>
+											
+										</form>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step5.png" id="step5img" style="display: none;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Step 6: Plant Acclimation</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<form>
+
+											<select id="step6" class="form-select" onchange="step6check()">
+												<option selected>Select the correct acclimatization procedure</option>
+												<option value="1">Direct sunlight exposure</option>
+												<option value="2">Gradual hardening under controlled humidity</option>
+												<option value="3">Completely submerge roots in water</option>
+											</select>
+											
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card border border-0">
+									<div class="card-body">
+										<img src="./images/Step6.png" id="step6img" style="display: none;">
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+	</div>
+	<div class="modal fade" id="alertmessage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Alert Message</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p></p>
+
+				</div>
+				<div class="modal-footer">
+
+					<button type="button" class="btn btn-warning" onclick="" data-bs-dismiss="modal"
+						onclick="showstep1img()">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	</div>
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<script src="./js/mainamt.js"></script>
+<script src="../../assets/js/iframeResize.js"></script>
+        
+        </body>
+
+</html>

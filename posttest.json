@@ -1,0 +1,101 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.What is the main role of Agrobacterium in plant genetic transformation?",
+      "answers": {
+        "a": "To act as a nutrient source for plants",
+        "b": "To naturally insert T-DNA into plant cells",
+        "c": "To create resistant genes within plants",
+        "d": "To enhance photosynthesis in plants"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.Which material is commonly used for microcarrier particles in particle bombardment?",
+      "answers": {
+        "a": "Silver",
+        "b": "Iron",
+        "c": "Gold or tungsten ",
+        "d": "Copper"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.What does acetosyringone do in Agrobacterium-mediated transformation?",
+      "answers": {
+        "a": "Inhibits bacterial growthwer1",
+        "b": "Activates virulence genes ",
+        "c": "Destroys plant cell walls",
+        "d": "Acts as a nutrient source for the plant"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.What is the primary advantage of particle bombardment over Agrobacterium-mediated transformation?",
+      "answers": {
+        "a": "It is less expensive",
+        "b": "It can be used for a wider range of plant species ",
+        "c": "It uses fewer chemicals",
+        "d": "It requires less preparation time"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.What stops the macrocarrier before particles reach the target cells in particle bombardment?",
+      "answers": {
+        "a": "A pressure valve",
+        "b": "The target cell plate",
+        "c": "A stopping screen ",
+        "d": "A helium burst"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6.Which Agrobacterium strain is commonly used for genetic transformation?",
+      "answers": {
+        "a": "A. tumefaciens ",
+        "b": "A. rhizogenes",
+        "c": "E. coli",
+        "d": "Bacillus subtilis"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7.In Agrobacterium-mediated transformation, why are plant cells co-cultivated in the dark?",
+      "answers": {
+        "a": "To prevent chlorophyll synthesis",
+        "b": "To minimize cell damage from light exposure",
+        "c": "To improve transformation efficiency by affecting hormone levels",
+        "d": "To reduce bacterial growth"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8.How is the genetic material delivered into plant cells during particle bombardment?",
+      "answers": {
+        "a": "Using a needle injection",
+        "b": "Via a vacuum infiltration process",
+        "c": "By a high-pressure blast of helium gas ",
+        "d": "Through bacterial transformation"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

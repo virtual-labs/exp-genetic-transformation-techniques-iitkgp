@@ -1,0 +1,66 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.What is the primary purpose of genetic transformation in plants?",
+      "answers": {
+        "a": "To study the plant's morphology",
+        "b": "To improve soil fertility",
+        "c": "To introduce new traits, like pest resistance",
+        "d": "To improve irrigation in agriculture"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.Which of the following is a commonly used bacterium in genetic transformation of plants?",
+      "answers": {
+        "a": "E. coli",
+        "b": "Salmonella",
+        "c": "Bacillus thuringiensis",
+        "d": "Agrobacterium "
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.Which of the following is also known as the particle bombardment method?",
+      "answers": {
+        "a": "Bio-Bullet Method",
+        "b": "Microinjection Technique",
+        "c": "Gene Gun Method ",
+        "d": "Laser Transfer Technique"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.In Agrobacterium-mediated transformation, what is transferred to the plant?",
+      "answers": {
+        "a": "Plant DNA",
+        "b": "T-DNA ",
+        "c": "Viruses",
+        "d": "Fungi"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.Which of the following is a major advantage of the particle bombardment method?",
+      "answers": {
+        "a": "It is very inexpensive",
+        "b": "It does not need a gene gun",
+        "c": "It can be used on a wide range of plants",
+        "d": "It only works with Agrobacterium"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+    
+  ]
+}
