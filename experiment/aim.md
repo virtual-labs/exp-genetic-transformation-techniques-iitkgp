@@ -1,1 +1,3 @@
-### Aim of the experiment
+## Aim of the experiment
+
+The objective of this study is to understand the fundamental principles and practical workflow of **Agrobacterium-mediated** and **gene gun–mediated** genetic transformation in plants. It aims to examine how these methods enable **gene overexpression** and **antisense gene silencing** for functional genomics. The study further seeks to compare their applicability in **model plants**.

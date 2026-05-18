@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carousel with External Caption</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .custom-img {
+      width: 400px;
+      height: 250px;
+      object-fit: cover;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-image: none;
+      width: 2rem;
+      height: 2rem;
+      border: solid black;
+      border-width: 0 4px 4px 0;
+      padding: 6px;
+      transform: rotate(45deg);
+    }
+    .carousel-control-prev-icon {
+      transform: rotate(135deg);
+    }
+    .carousel-control-next-icon {
+      transform: rotate(-45deg);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container text-center my-4">
+  <h3 id="carousel-heading">Step 1: Seed Sterilization and Germination</h3>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active" data-caption="Step 1: Seed Sterilization and Germination">
+      <img src="./images/Step 1 [Agrobacterium]-Photoroom.png" class="d-block mx-auto " alt="First Slide">
+    </div>
+    <div class="carousel-item" data-caption="Step 2: Preparation of Agrobacterium Inoculum">
+      <img src="./images/Step 2 [Agrobacterium]-Photoroom.png" class="d-block mx-auto " alt="Second Slide">
+    </div>
+    <div class="carousel-item" data-caption="Step 3: Preparation of Explant and Co-Cultivation">
+      <img src="./images/Step 3 [Agrobacterium]-Photoroom.png" class="d-block mx-auto " alt="Third Slide">
+    </div>
+    <div class="carousel-item" data-caption="Step 4: Shoot Initiation">
+        <img src="./images/Step 4 [Agrobacterium]-Photoroom.png" class="d-block mx-auto " alt="Fourth Slide">
+      </div>
+      <div class="carousel-item" data-caption="Step 5: Root Formation (Regeneration)">
+        <img src="./images/Step 5 [Agrobacterium]-Photoroom.png" class="d-block mx-auto " alt="Fifth Slide">
+      </div>
+      <div class="carousel-item" data-caption="Step 6: Plant Acclimation">
+        <img src="./images/Step 6 [Agrobacterium]-Photoroom.png" class="d-block mx-auto " alt="Sixth Slide">
+      </div>
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  const carousel = document.querySelector('#myCarousel');
+  const heading = document.querySelector('#carousel-heading');
+  const bsCarousel = new bootstrap.Carousel(carousel);
+
+  // Update heading on slide
+  carousel.addEventListener('slide.bs.carousel', function (e) {
+    const nextSlide = e.relatedTarget;
+    const caption = nextSlide.getAttribute('data-caption');
+    heading.textContent = caption;
+  });
+</script>
+
+</body>
+</html>
